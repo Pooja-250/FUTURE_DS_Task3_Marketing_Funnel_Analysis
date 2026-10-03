@@ -1,0 +1,93 @@
+# Marketing Funnel Analysis
+
+## 📌 Project Overview
+
+This project analyzes e-commerce user behavior to understand the customer marketing funnel from product views to cart activity and purchases.
+
+The analysis focuses on identifying conversion rates, customer drop-offs, popular product categories and brands, and purchase trends over time.
+
+## 🎯 Objectives
+
+* Analyze user movement through the marketing funnel
+* Measure View → Cart and Cart → Purchase conversion rates
+* Identify major customer drop-offs
+* Analyze purchases by product category and brand
+* Understand purchase trends over time
+* Provide actionable business recommendations
+
+## 🛠️ Tools & Technologies
+
+* Python
+* Jupyter Notebook
+* Pandas
+* Power BI
+* DAX
+* Data Visualization
+
+## 📊 Dataset
+
+The analysis uses an e-commerce events dataset containing user interaction events such as:
+
+* `view`
+* `cart`
+* `purchase`
+
+Important fields include user ID, event type, product information, brand, category, price, event time, and user session.
+
+## 🔎 Analysis Performed
+
+### Customer Funnel
+
+The funnel analyzes the progression of users through:
+
+**View → Cart → Purchase**
+
+### Conversion Analysis
+
+The dashboard includes:
+
+* View → Cart Conversion
+* Cart → Purchase Conversion
+* View → Cart Drop-off
+
+### Product Analysis
+
+Purchases were analyzed by:
+
+* Product Category
+* Brand
+
+### Time Analysis
+
+Purchase activity was analyzed over time to identify changes and trends in customer purchasing behavior.
+
+## 📈 Key Insights
+
+* A large proportion of users who viewed products did not proceed to the cart stage.
+* The View → Cart conversion rate is approximately **4.9%**.
+* The Cart → Purchase conversion rate is approximately **59.2%** based on users who appear in both cart and purchase events.
+* Purchase behavior varies across product categories and brands.
+* Purchase activity changes over time, highlighting periods of higher and lower customer activity.
+
+## 💡 Recommendations
+
+* Improve product discovery and product-page experience to encourage more users to add products to their carts.
+* Investigate reasons for the large View → Cart drop-off.
+* Optimize checkout and cart experience to reduce purchase abandonment.
+* Focus marketing efforts on high-performing product categories and brands.
+* Monitor purchase trends over time to identify opportunities for targeted campaigns.
+
+## 📂 Project Files
+
+* `FUTURE_DS_Task2_Marketing_Funnel_Analysis.ipynb` — Python/Jupyter analysis
+* `FUTURE_DS_Task2_Marketing_Funnel_Analysis.pbix` — Power BI dashboard
+* `dashboard.png` — Dashboard preview
+
+## 📊 Dashboard Preview
+
+![Marketing Funnel Dashboard](dashboard.png)
+
+## 👩‍💻 Project Type
+
+Future Interns — Data Science & Analytics Internship
+Task 2: Marketing Funnel Analysis
